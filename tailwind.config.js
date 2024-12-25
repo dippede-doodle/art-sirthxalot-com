@@ -9,6 +9,11 @@ export default {
     "./error.vue",
   ],
   theme: {
+    fontFamily: {
+      'sans': ['Open Sans', 'Helvetica Neue', 'Tahoma', 'Verdana', 'Segoe', 'sans-serif'],
+      'display': ['Absender', 'Open Sans', 'Helvetica Neue', 'Tahoma', 'Verdana', 'Segoe', 'sans-serif'],
+      'body': ['Open Sans', 'Helvetica Neue', 'Tahoma', 'Verdana', 'Segoe', 'sans-serif'],
+    },
     extend: {},
   },
   plugins: [],

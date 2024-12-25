@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Absender';
+    src:  url('./WOFF2/AbsenderRegular.woff2') format('woff2'),
+          url('./WOFF/AbsenderRegular.woff') format('woff');
+}
