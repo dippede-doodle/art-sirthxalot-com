@@ -1,3 +1,20 @@
+@import "./lib/callout.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    a, button {
+        @apply transition-all ease-in-out delay-75 duration-200;
+    }
+
+    button.icon--close {
+        @apply opacity-45 hover:opacity-80 focus:opacity-100;
+    }
+
+    .icon--close {
+        @apply absolute inline-flex right-4 top-4;
+    }
+
+}

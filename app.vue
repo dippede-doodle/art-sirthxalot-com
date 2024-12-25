@@ -1,9 +1,10 @@
 <template>
-  <div>
+  <page-layout>
     <NuxtPage />
-  </div>
+  </page-layout>
 </template>
 
 <script setup>
 import 'what-input'
+import pageLayout from '@/layouts/page/index.vue'
 </script>
